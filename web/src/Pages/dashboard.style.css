@@ -1,0 +1,91 @@
+
+/* Reset default margin and padding for the entire page */
+/* body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+   */
+ 
+  /* Style the task list table */
+  .task-list {
+    width: 100%;
+    /* margin-bottom: 100px; */
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Style the table header */
+  .task-list th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style alternating rows */
+  .task-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style table cells */
+  .task-list td {
+    padding: 10px;
+  }
+  
+  /* Apply styles to priority column */
+  .task-list td:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  /* Apply styles to status column */
+  .task-list td:nth-child(3) {
+    text-transform: capitalize;
+    color: green;
+  }
+  
+  .task-list td:nth-child(3):before {
+    content: "• ";
+    color: red;
+  }
+  
+  .task-list td:nth-child(3):before {
+    content: "• ";
+    color: green;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.incomplete {
+    background-color: #FFCCCC;
+  }
+
+  .complete {
+    background-color: #CCFFCC;
+  }
+
+  .btn {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+  }
+
+  .btn-incomplete {
+    background-color: #FF6666;
+  }
+
+  .btn-complete {
+    background-color: #66CC66;
+  }
